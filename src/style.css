@@ -1,5 +1,43 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: blue;
+    background: greenyellow;
+}
+
+.container-fluid{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+.carta{
+    border: 2px solid red;
+    width: 50vh;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    
+ 
+}
+.paloArriba{
+    display: flex;
+    justify-content: start;
+    font-size: 10vh;
+}
+
+.numero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    font-size: 10vh;
+}
+
+.paloAbajo{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font-size: 10vh;
+    
 }

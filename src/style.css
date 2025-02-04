@@ -17,6 +17,7 @@ body{
     height: 60vh;
     display: flex;
     flex-direction: column;
+    border-radius: 4vh;
     
  
 }
